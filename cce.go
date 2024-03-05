@@ -79,10 +79,10 @@ func drawSVG(hexString string) {
 	}
 
 	// Check if the number of coordinate pairs is even
-	if len(hexString)/4%2 != 0 {
-		fmt.Println("Error: The number of coordinate pairs must be even.")
-		return
-	}
+	// if len(hexString)/4%2 != 0 {
+	//	fmt.Println("Error: The number of coordinate pairs must be even.")
+	//	return
+	//}
 
 	// Initialize the SVG canvas
 	canvas := svg.New(os.Stdout)
