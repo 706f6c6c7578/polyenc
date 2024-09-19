@@ -104,7 +104,7 @@ func main() {
 		if os.Args[1] == "-d" {
 			decode()
 		} else {
-			fmt.Println("Usage: $ echo <hex string (min. 2 hex bytes)> | polyenc [-d]")
+			fmt.Println("Usage: $ echo <hex string (min. 2 hex bytes)> | cce [-d]")
 			return
 		}
 	} else {
